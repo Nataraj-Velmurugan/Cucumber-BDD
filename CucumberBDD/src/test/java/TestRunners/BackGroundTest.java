@@ -7,12 +7,11 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-
-		features = { "src/test/resources/AppFeatures" },
-		glue = {"StepDefinitions"},
-		plugin= {"pretty"}
-
-)
-public class AmazonTest {
+			features= {"src/test/resources/AppFeatures/BackGround.feature" },
+			glue= {"StepDefinitions"},
+			plugin = { "pretty" }
+			
+		)
+public class BackGroundTest {
 
 }

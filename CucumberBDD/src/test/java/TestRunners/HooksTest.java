@@ -8,11 +8,14 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 
-		features = { "src/test/resources/AppFeatures" },
-		glue = {"StepDefinitions"},
+		features = { "src/test/resources/AppFeatures/Hooks.feature" },
+		glue = {"StepDefinitions", "CustomHooks"},
+		tags="@Smoke or @Regression",
 		plugin= {"pretty"}
 
 )
-public class AmazonTest {
+
+public class HooksTest {
+	
 
 }
