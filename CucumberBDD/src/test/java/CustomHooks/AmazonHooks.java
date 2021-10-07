@@ -8,15 +8,15 @@ import io.cucumber.java.Scenario;
 
 public class AmazonHooks {
 	
-	@Before("@Smoke")
-	public void setup_2() {
-		System.out.println(" I am before tag hook ");
-	}
-
-	@After("@Smoke")
-	public void tearDown_2() {
-		System.out.println(" I am after tag hook");
-	}
+//	@Before("@Smoke")
+//	public void setup_2() {
+//		System.out.println(" I am before tag hook ");
+//	}
+//
+//	@After("@Smoke")
+//	public void tearDown_2() {
+//		System.out.println(" I am after tag hook");
+//	}
 
 	
 	
@@ -41,14 +41,14 @@ public class AmazonHooks {
 //		System.out.println(" I am tearDown 1");
 //	}
 	
-	@BeforeStep()
-	public void teaakescreenshot() {
-		System.out.println(" I am teaakescreenshot");
-	}
-
-	@AfterStep()
-	public void refresh() {
-		System.out.println(" I am refresh");
-	}
+//	@BeforeStep()
+//	public void teaakescreenshot() {
+//		System.out.println(" I am teaakescreenshot");
+//	}
+//
+//	@AfterStep()
+//	public void refresh() {
+//		System.out.println(" I am refresh");
+//	}
 	
 }
